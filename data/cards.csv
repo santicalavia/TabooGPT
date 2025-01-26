@@ -1,0 +1,875 @@
+ID,target,forbidden_1,forbidden_2,forbidden_3,forbidden_4,forbidden_5
+1,NAVIDAD,Diciembre,Papa Noel,Villancicos,Arbolito,Nacimiento
+2,PICTIONARY,Juego,Dibujar,Lápiz,Marca,Tablero
+3,NIDO,Pájaro,Pichones,Huevos,Casa,Árbol
+4,ERUCTO,Ruido,Bebe,Comer,Boca,Provechito
+5,CABALLO,Estribos,Ensillar,Jinete,Montar,Carrera
+6,ESTRIBOS,Montura,Ensillar,Pies,Espuelas,Caballo
+7,PARQUIMETRO,Ficha,Coche,Estacionar,Tiempo,Reloj
+8,SURF,Playa,Tabla,Mar,Olas,Equilibrio
+9,EDAD,Años,Vida,Nacer,Fecha,Tiempo
+10,COLUMNA VERTEBRAL,Esqueleto,Cuerpo,Costillas,Huesos,Sostener
+11,GORILA,Mono,Chimpance,Orangutan,King-kong,Zoológico
+12,PIRAMIDE,Tumba,Momia,Egipto,Keops,Faraón
+13,BATERIA,Platillos,Instrumento,Música,Ritmo,Bombo
+14,RISA,Ridículo,Cómico,Carcajada,Chiste,Broma
+15,PRONOSTICO,Predicción,Nublado,Lluvia,Temperatura,Tiempo
+16,ANDEN,Tren,Estación,Esperar,Subir,Bajar
+17,MATE,Yerba,Bombilla,Agua,Amargo,Azúcar
+18,CIRUJANO,Hospital,Anestesia,Operación,Doctor,Escalpelo
+19,CRITICO,Película,Opinión,Teatro,Arte,Comentar
+20,ANGULO,Recta,Grado,Geometría,Polígono,Lado
+21,BANCO,Cheque,Cuenta,Cajero,Dinero,Cambio
+22,PAN,Harina,Levadura,Galletitas,Sándwich,Tostadas
+23,FIESTA,Cumpleaños,Celebración,Regalos,Amigos,Invitaciones
+24,SUGUS,Caramelo,Masticar,Quiosco,Marca,Golosina
+25,ESPOSAS,Arresto,Policía,Mano,Preso,Muñeca
+26,FIRMA,Nombre,Apellido,Rubrica,Autógrafo,Contrato
+27,PIJAMA,Dormir,Cama,Ponerse,Ropa,Camisón
+28,ALFOMBRA,Carpeta,Kalpakian,Piso,Moqueta,Suelo
+29,DULCE,Chocolate,Caramelo,Sabor,Galletitas,Bombón
+30,ALMOHADA,Cama,Dormir,Pluma,Acostarse,Cabeza
+31,LUNA,Noche,Sol,Satélite,Espacio,Estrellas
+32,CICATRIZ,Señal,Marca,Herida,Piel,Huella
+33,PAYASO,Circo,Nariz,Zapatones,Bofetada,Reír
+34,ALBINO,Blanco,Ojos,Cara,Piel,Color
+35,GELATINA,Flan,Comer,Postre,Helado,Transparente
+36,CENIZAS,Fuego,Fumar,Polvo,Quemar,Cigarrillo
+37,HUELLA,Digital,Rastro,Pisada,Señal,Mano
+38,OXIGENO,Respirar,Aire,Atmosfera,Hidrogeno,Gas
+39,NAFTA,Combustible,Surtidor,Auto,Tanque,Estación
+40,OLIMPICO,Atletas,Medallas,Juegos,Competición,Países
+41,INODORO,Caca,Pis,Baño,Agua,Sentarse
+42,ANALISIS,Sangre,Orina,Laboratorio,Medico,Enfermo
+43,ANIMAL,Vivo,Salvaje,Domestico,Veterinario,Irracional
+44,INOCENTE,Absuelto,Niño,Culpable,Ingenuo,Veredicto
+45,MERCENARIO,Soldado,Guerra,Pago,Extranjero,Militar
+46,CORONA,Cabeza,Oro,Redonda,Símbolo,Rey
+47,BOTIQUIN,Baño,Espejo,Remedios,Guardar,Armario
+48,COCKTAIL,Alcohol,Trago,Copa,Mezcla,Bebida
+49,OBELISCO,Monumento,Buenos Aires,Corrientes,Símbolo,República
+50,SEMANA,Mes,Cuatro,Tiempo,Siete,Días
+51,HELICOPTERO,Avión,Volar,Rotor,Vertical,Hélice
+52,MONSTRUO,Miedo,Criatura,Asustar,Horrible,Feo
+53,CONGRESO,Cámara,Senado,Gobierno,Diputados,Poder Legislativo
+54,TESORO,Piratas,Mapa,Cofre,Oro,Isla
+55,ASADO,Fuego,Parrilla,Carbón,Carne,Cocinar
+56,SUBMARINO,Barco,Periscopio,Torpedo,Inmersión,Guerra
+57,AGUIJON,Clavar,Abeja,Veneno,Mosquito,Avispa
+58,PASAPORTE,Documento,Extranjero,Viajar,Aduana,Visa
+59,HOSPITAL,Doctor,Medico,Curar,Internar,Enfermo
+60,PUÑAL,Arma,Mano,Cuchillo,Espada,Daga
+61,CAMISA DE FUERZA,Mangas,Atar,Manicomio,Loco,Demente
+62,ANILLO,Dedos,Mano,Sortija,Compromiso,Alianza
+63,ANESTESIA,Dolor,Operación,Dormir,Sentir,Medico
+64,SILLON,Respaldo,Cómodo,Asiento,Sentarse,Sofá
+65,XUXA,Brasil,TV,Niños,Paquitas,Pele
+66,LAGARTO,Cocodrilo,Animal,Sol,Reptil,Pequeño
+67,FLECHA,Arco,Punta,Lanzar,Ballesta,Indios
+68,INSOMNIO,Cama,Dormir,Desvelo,Sueño,Noche
+69,ANTIFAZ,Ojos,Tapar,Mascara,Carnaval,Cara
+70,VENTANA,Casa,Pared,Vidrio,Mirar,Luz
+71,LANZAR,Pelota,Jabalina,Tirar,Echar,Arrojar
+72,ALMIBAR,Azúcar,Dulce,Fruta,Lata,Liquido
+73,COLADOR,Te,Agujeros,Filtro,Fideos,Agua
+74,MASTIL,Bandera,Palo,Poste,Izar,Velas
+75,BALA,Cartucho,Pistola,Disparar,Proyectil,Escopeta
+76,BOSQUE,Plantas,Árboles,Animales,Madera,Selva
+77,HOGUERA,Madera,Quemar,Leña,Fuego,Campamento
+78,ALARMA,Robo,Casa,Banco,Atraco,Ladrón
+79,HORMIGA,Insecto,Comer,Jardín,Fila,Plantas
+80,RADIADOR,Anticongelante,Enfriar,Coche,Agua,Motor
+81,SOFTWARE,Computadora,Programa,Disquette,Lenguaje,Hardware
+82,CORBATA,Vestir,Seda,Camisa,Cuello,Nudo
+83,GATILLO,Dedo,Tirar,Apretar,Disparar,Pistola
+84,ANZUELO,Caña,Pescador,Tirar,Cebo,Lombriz
+85,ELECTRICIDAD,Luz,Corriente,Energía,Enchufe,Lámpara
+86,UVA,Vid,Fruta,Parra,Racimo,Vino
+87,POKER,Apostar,Naipes,Juego,Baraja,Cartas
+88,SOMBRERO,Gorra,Casco,Poner,Cabeza,Ala
+89,VALIENTE,Cobarde,Miedo,Defender,Héroe,Salvar
+90,CHATARRA,Autos,Coche,Hierro,Basura,Metal
+91,PINOCHO,Mentira,Nariz,Gepetto,Muñeco,Cuento
+92,MOCHILA,Bolso,Hombro,Caminata,Llevar,Espalda
+93,DOLAR,Verde,Dinero,Moneda,EE UU,Plata
+94,ADUANA,Control,Frontera,Pasaporte,Declarar,Contrabando
+95,PLAYA,Arena,Costa,Verano,Mar,Olas
+96,WHISKY,Licor,Alcohol,Tomar,Caro,Bebida
+97,PIRATA,Calavera,Abordaje,Barcos,Mar,Pata
+98,COLONIA,Desodorante,Aroma,Perfume,Olor,Fragancia
+99,NEON,Luces,Negocios,Tubos,Publicidad,Gas
+100,PORTERO,Mantenimiento,Encargado,Edificio,Basura,Limpio
+101,BRILLANTE,Diamante,Sol,Luz,Radiante,Luminoso
+102,LAGRIMA,Ojos,Llorar,Agua,Gotas,Triste
+103,ANTEPASADO,Árbol Genealógico,Descendiente,Familiar,Abuelo,Ascendiente
+104,UÑA,Manicura,Limar,Dedo,Esmalte,Pintar
+105,MARIPOSA,Larva,Volar,Insecto,Flores,Alas
+106,BALANZA,Pesar,Platillo,Kilos,Farmacia,Gramo
+107,BRUJA,Escoba,Fea,Cuentos,Mala,Magia
+108,ESCAPARATE,Negocio,Mirar,Calle,Galería,Cristal
+109,LADRILLO,Construir,Casa,Barro,Edificio,Obra
+110,ANTENA,TV,Radio,Captar,Emisión,Onda
+111,TAXI,Reloj,Ficha,Coche,Alquiler,Amarillo
+112,TIESO,Inmóvil,Cadáver,Rígido,Tabla,Duro
+113,PALMERA,Datil,Coco,Árbol,Mono,Trópico
+114,GRUA,Levantar,Auto,Avería,Estacionamiento,Auxilio
+115,INYECCION,Jeringa,Aguja,Pinchar,Cola,Dolor
+116,INDICE,Orden,Libro,Principio,Paginas,Final
+117,GLOBO,Aire,Soplar,Inflar,Cumpleaños,Boca
+118,AFUERA,Exterior,Salida,Adentro,Echar,Sacar
+119,REVENTAR,Explotar,Globo,Bomba,Detonar,Dinamita
+120,CLIENTE,Vendedor,Pagar,Comprar,Razón,Negocio
+121,LORO,Pájaro,Hablar,Plumas,Verde,Pirata
+122,SAMURAI,Soldado,Espada,Japón,Antiguo,Hara-Kiri
+123,DRACULA,Conde,Sangre,Transilvania,Colmillos,Vampiro
+124,BOSTEZO,Boca,Abrir,Sueño,Aburrimiento,Contagioso
+125,PAIS,Estado,Nación,Gobierno,Frontera,Bandera
+126,INDIO,Plumas,Tribu,Carpa,Flecha,Pintura
+127,TRANVIA,Trolebús,Eléctrico,Calle,Vías,Tren
+128,SINGULAR,Plural,Individual,Uno,Particular,Solo
+129,DEPRESION,Bajón,Animo,Contento,Tristeza,Mal
+130,DOMICILIO,Vivir,Casa,Calle,Dirección,Numero
+131,PROPINA,Mozo,Acomodador,Cine,Dinero,Asiento
+132,PATA,Pierna,Animal,Garra,Palo,Pisar
+133,NARIZ,Cara,Tabique,Oler,Fosas,Anteojos
+134,NOTA,Musical,Canción,Pentagrama,Sonido,Escala
+135,AYER,Mañana,Tiempo,Antes,Día,Pasado
+136,CONVENTO,Iglesia,Habito,Religión,Monja,Cura
+137,RIO,Mar,Pescar,Navegar,Corriente,Agua
+138,DIAMANTE,Duro,Kilates,Joyas,Brillante,Piedra
+139,JARRON,Flores,Agua,Adorno,Porcelana,Cristal
+140,NAUFRAGO,Isla,Barco,Palmera,Barba,Botella
+141,COLMILLO,Mordedura,Diente,Marfil,Vampiro,Elefante
+142,HOMBRO,Cuerpo,Espalda,Brazo,Parte,Cuello
+143,TRIGO,Harina,Grano,Pan,Cereal,Espiga
+144,BALLENA,Mar,Animal,Grande,Surtidor,Moby Dick
+145,FAMA,Reputación,Artistas,Celebridad,Popular,Conocido
+146,CABARET,Desnudarse,Streap-Tease,Bar,Música,Baile
+147,NUBE,Cielo,Despejado,Lluvia,Sol,Trueno
+148,RALLY,Carrera,Auto,Etapas,Competencia,Copiloto
+149,PAVO REAL,Pájaro,Ave,Pollo,Plumas,Cola
+150,NUDO,Corbata,Marinero,Atar,Lazo,Moño
+151,COCODRILO,Dientes,Río,Piel,Animal,Caimán
+152,CUARTETO,Instrumentos,Música,Cantantes,Conjunto,Grupo
+153,NUEZ,Fruta,Árbol,Navidad,Almendra,Avellana
+154,CAFE,Taza,Grano,Moler,Negro,Filtro
+155,POLEN,Flores,Abeja,Mariposa,Planta,Polvo
+156,MAGO,Sombrero,Paloma,Truco,Desaparecer,Varita
+157,LLUVIA,Agua,Caer,Paraguas,Tiempo,Mojar
+158,CARPA,Campamento,Tienda,Dormir,Camping,Circo
+159,ATEO,Dios,Creer,Religión,Vida,Muerte
+160,PROFESOR,Enseñar,Universidad,Colegio,Facultad,Secundaria
+161,TELEGRAMA,Mensaje,Correo,Carta,Urgente,Morse
+162,JAZZ,Música,New Orleans,Negro,Trompeta,Piano
+163,RONALD REAGAN,Bush,Actor,Político,Presidente,Estados Unidos
+164,DENTADURA POSTIZA,Boca,Corega,Puente,Artificial,Muelas
+165,JARABE,Liquido,Espeso,Cuchara,Frasco,Tos
+166,ESPANTAPAJAROS,Asustar,Campo,Aves,Maizal,Proteger
+167,DEDO,Mano,Uñas,Nudillos,Anillo,Puño
+168,MODISTA,Coser,Vestido,Mujer,Sastre,Probar
+169,UNIFORME,Vestido,Igual,Colegio,Ejercito,Policía
+170,LAPIDA,Piedra,Cementerio,Epitafio,Tumba,Sepultura
+171,MARTIR,Santo,Muerte,Religión,Sacrificio,Sufrir
+172,DINOSAURIO,Prehistórico,Grande,Gigante,Reptil,Antigüedad
+173,PUERTA,Entrada,Cerradura,Llave,Timbre,Casa
+174,GIMNASIA,Ejercicio,Pesas,Aparatos,Deporte,Aerobic
+175,PUENTE,Cruzar,Río,Levadizo,Colgante,Sobre
+176,CHOCOLATE,Comer,Bombón,Dulce,Cacao,Alfajor
+177,ABANICO,España,Aire,Mujer,Plegable,Calor
+178,PIRAÑA,Morder,Comer,Pez,Diente,Río
+179,AMETRALLADORA,Arma,Automático,Disparar,Balas,Gatillo
+180,MONJA,Habito,Religión,Hermana,Convento,Novicia
+181,MENSAJERO,Llevar,Telegrama,Carta,Paquetes,Moto
+182,MINUTO,Agujas,Reloj,Tiempo,Segundos,Horas
+183,TARDE,Mañana,Mediodía,Horas,PM,Siesta
+184,HOROSCOPO,Astrología,Doce,Zodiaco,Signos,Futuro
+185,INSULTO,Ofensa,Palabras,Gritar,Enojado,Decir
+186,AMIGDALAS,Glándulas,Garganta,Inflamar,Operación,Niño
+187,AUTOCINE,Película,Coche,Estacionar,Aire Libre,Mirar
+188,ANCLA,Hierro,Clavar,Puntas,Agua,Barco
+189,ASOCIACION,Club,Grupo,Organización,Sociedad,Compañía
+190,AGUJA,Pajar,Coser,Alfiler,Costura,Hilo
+191,TERREMOTO,Derrumbe,Sismo,Temblor,Tierra,Movimiento
+192,FANTASIA,Imaginación,Pensamiento,Ilusión,Deseo,Sueño
+193,TRINEO,Esquíes,Patinar,Nieve,Perros,Hielo
+194,ESPUMA,Burbujas,Cerveza,Lavado,Olas,Jabón
+195,NATURALEZA,Aire,Verde,Animales,Montaña,Árboles
+196,ALFABETO,Vocales,Consonantes,Leer,Abecedario,Letras
+197,ABUELO,Nieto,Padre,Viejo,Jubilado,Anciano
+198,PARIENTE,Abuelos,Padres,Tíos,Familiar,Cónyuge
+199,MEDIANOCHE,Cenicienta,Mediodía,Final,Hora 24,Doce en Punto
+200,HELADO,Frío,Crema,Palito,Cucurucho,Bombón
+201,AGUJERO,Pozo,Hueco,Orificio,Hoyo,Colador
+202,KREMLIN,Moscu,URSS,Palacio,Rusia,Plaza Roja
+203,ESPUELAS,Jinete,Montar,Caballo,Metal,Puntas
+204,ESCAMAS,Reptiles,Placas,Piel,Cubrir,Peces
+205,VOLEY,Pelota,Juego,Remate,Saque,Red
+206,CENICERO,Cigarrillo,Colilla,Fumar,Fósforo,Habano
+207,SECRETARIA,Ayudante,Ejecutivo,Oficina,Jefe,Agenda
+208,AMNESIA,Recuerdos,Memoria,Acordarse,Cabeza,Olvidarse
+209,GRASA,Aceite,Lubricante,Gordo,Freír,Colesterol
+210,RESTAURANTE,Mozos,Mesas,Comer,Carta,Servir
+211,RINOCERONTE,Cuerno,Animal,África,Mamífero,Salvaje
+212,TATUAJE,Aguja,Cuerpo,Dibujo,Piel,Tinta
+213,DIA,Noche,Sol,Horas,Semana,Despierto
+214,SALMON,Río,Rosado,Trucha,Ahumado,Pez
+215,DIBUJO,Lápiz,Pintar,Garabato,Papel,Retrato
+216,JOROBADO,Encorvado,Espalda,Deforme,Giba,Notre Dame
+217,POLO,Pelota,Juego,Deporte,Caballo,Jinete
+218,REMOLACHA,Comida,Tubérculo,Cocinar,Morada,Azúcar
+219,TERRAZA,Arriba,Plantas,Sol,Techo,Ropa
+220,CRUDO,Cocinar,Fuego,Cocido,Comida,Carne
+221,ENSALADA,Comida,Fría,Lechuga,Mixta,Tomate
+222,PACIENTE,Hospital,Esperar,Curarse,Doctor,Enfermo
+223,PARARRAYOS,Tormenta,Relámpago,Eléctrico,Protección,Techo
+224,MOSQUITO,Picadura,Rascarse,Raid,Espiral,Insecto
+225,RELOJ,Hora,Tiempo,Despertador,Muñeca,Agujas
+226,BOMBEROS,Incendio,Apagar,Fuego,Sirena,Mangueras
+227,COBARDE,Valor,Atreverse,Miedo,Enfrentar,Defenderse
+228,TOLDO,Sol,Lluvia,Balcón,Tela,Protección
+229,CHUPETE,Boca,Bebe,Niño,Biberón,Teta
+230,BOTAS,Pies,Caminar,Zapatos,Cuero,Caballo
+231,JAMON,Carne,Fiambre,Cerdo,Cocido,Crudo
+232,EDIFICIO,Departamento,Pisos,Ascensor,Casa,Portero
+233,VALIJA,Viajar,Guardar,Equipaje,Ropa,Llevar
+234,INMORTAL,Vivir,Morir,Eternidad,Siempre,Perpetuo
+235,PLAZA,Chicos,Árboles,Jugar,Tobogán,Hamacas
+236,CONFUCIO,Filosofo,Chino,Proverbio,Religión,Sabio
+237,DINAMITA,Nobel,Mecha,Bomba,TNT,Explosión
+238,BESO,Boca,Mejilla,Amor,Judas,Labios
+239,HORNO,Microondas,Gas,Comida,Calor,Cocina
+240,DERECHA,Izquierda,Mano,Comer,Escribir,Lado
+241,PALOMA,Ave,Pájaro,Plumas,Alas,Paz
+242,BALDE,Llevar,Plástico,Recipiente,Agua,Manija
+243,FUMAR,Tabaco,Habano,Humo,Pipa,Cigarrillo
+244,ARMADURA,Metal,Usar,Traje,Caballero,Protección
+245,PASA DE UVA,Corinto,Semillas,Arruga,Fruta,Seca
+246,OCEANO ATLANTICO,Pacifica,Agua salada,Costa,Mar,Olas
+247,HIPNOTIZAR,Dormir,Mirada,Mago,Despertar,Sueño
+248,PEINE,Dientes,Cabeza,Pelo,Cepillo,Espejo
+249,DESNUDO,Vestido,En cueros,Ropa,En bolas,Sin
+250,CAMPANA,Tocar,Iglesia,Bronce,Badajo,Escuela
+251,PRECIPICIO,Altura,Caer,Montaña,Barranco,Abismo
+252,GOLONDRINAS,Pájaro,Primavera,Negro,Volar,Volver
+253,CANIBAL,Comer,Salvaje,Humano,Antropófago,Tribu
+254,VENENO,Antídoto,Víbora,Mortal,Picadura,Cianuro
+255,DILIGENCIA,Carruaje,Caballo,Transporte,Vaquero,Oeste
+256,ESCUDO,Protección,Defensa,Metal,Antiguo,Brazo
+257,MENTIRA,Falso,Engaño,Verdad,Confianza,Decir
+258,INCENDIO,Quemar,Apagar,Fuego,Llama,Bomberos
+259,LOCUTOR,Hablar,Radio,TV,Noticias,Avisos
+260,MOULINEX,Multiprocesadora,Marca,Electrodomésticos,Rallar,Moler
+261,PILA,Batería,Eveready,Duracell,Energizer,Linterna
+262,MENOR DE EDAD,Chico,Niño,18 años,Joven,Mayor
+263,INSECTO,Animal,Patas,Pequeño,Pica,Antenas
+264,ASTRONAUTA,Luna,Nasa,Cohete,Espacio,Satélite
+265,AMARGO,Azúcar,Dulce,Café,Mate,Remedio
+266,MUDO,Hablar,Voz,Señas,Sordo,Boca
+267,EXPLOSION,Pólvora,Detonador,Bomba,Ruido,Dinamita
+268,RATONERA,Trampa,Queso,Cebo,Roedor,Atrapar
+269,QUIOSCO,Golosinas,Negocio,Caramelos,Cigarrillos,Vender
+270,BUFALO,Animal,Buey,Bisonte,Indios,Oeste
+271,AMAZONA,Mujer,Caballo,Montar,Jinete,Galopar
+272,GUITARRA,Tocar,Música,Cuerdas,Eléctrica,Instrumento
+273,JAULA,Pájaro,Barrotes,Zoológico,Animal,Escaparse
+274,BOXEADOR,Guante,Round,K.O.,Ring,Peso
+275,ATAUD,Cajón,Muerto,Enterrar,Cementerio,Velatorio
+276,MES,Doce,Días,Semanas,Año,Calendario
+277,ACUPUNTURA,Clavar,Agujas,Cuerpo,Chino,Doctor
+278,MAPA,Cartografía,Atlas,Geografía,Rutas,Globo terráqueo
+279,ALIEN,Sigourney Weaver,Octavo Pasajero,Película,Criatura,Espacio
+280,ARQUITECTO,Obra,Planos,Dibujo,Diseño,Construcción
+281,RULETA,Números,Bolita,Negro,Rojo,Casino
+282,REINA,Corona,Monarquía,Príncipe,Inglaterra,Mujer
+283,MANICURA,Dedos,Cuidar,Uñas,Peluquería,Mujer
+284,PARACAIDAS,Tirarse,Altura,Piloto,Saltar,Avión
+285,GUILLOTINA,Cortar,Cuchilla,Cabeza,Francia,Revolución
+286,ACEITE,Condimento,Vinagre,Ensalada,Oliva,Freír
+287,HUESO,Esqueleto,Romper,Yeso,Calcio,Perro
+288,AJEDREZ,Juego,Tablero,Ficha,Blancas,Negras
+289,PASTO,Verde,Césped,Jardín,Hierba,Cortar
+290,TAPA,Rosca,Cerrar,Cacerola,Hermética,Cubierta
+291,ESTOMAGO,Panza,Tripa,Comida,Cuerpo,Digestión
+292,RUTA,Camino,Autos,Peaje,Autopista,Carretera
+293,REGALO,Cumpleaños,Dar,Navidad,Presente,Obsequio
+294,MEJILLA,Beso,Cara,Bofetada,Cachete,Moflete
+295,PARED,Casa,Separar,Muro,Medianera,Ladrillos
+296,PULPO,Ocho,Tentáculos,Tinta,Pescadera,Océano
+297,EPIDEMIA,Vacuna,Enfermedad,Contagiarse,País,Muertos
+298,ACTIVISTA,Político,Militante,Derecho,Estudiante,Protesta
+299,OTOÑO,Mes,Estación,Hojas,Verano,Invierno
+300,SOGA,Atar,Nudo,Ahorcar,Cuerda,Sujetar
+301,CITA,Reunión,Fecha,Pedir,Encontrarse,Teléfono
+302,POLVO,Limpio,Sucio,Tierra,Plumero,Muebles
+303,MONO,Chimpancé,Chita,Gorila,Tarzán,Simio
+304,BOTON,Camisa,Ojal,Cierre,Abrochar,Manga
+305,PUBLICO,Aplauso,Gente,Privado,Espectáculo,Teatro
+306,ASFALTO,Negro,Pavimento,Camino,Brea,Alquitrán
+307,DESEO,Querer,Capricho,Sexual,Tener,Pedir
+308,BOOMERANG,Aire,Australia,Forma,Volver,Tirar
+309,AZUCAR,Blanco,Endulzar,Edulcorante,Café,Caramelo
+310,APELLIDO,Nombre,Familia,Hijo,Padre,Llamarse
+311,DIVORCIADO,Casado,Estado civil,Separado,Ex,Matrimonio
+312,VIEJO,Joven,Jubilado,Abuelo,Nuevo,Antiguo
+313,MUSEO,Arte,Edificio,Pinturas,Exhibición,Colecciones
+314,CALAVERA,Cráneo,Pirata,Hamlet,Huesos,Cabeza
+315,ACOPLADO,Camión,Remolque,Carga,Transporte,Detrás
+316,TRENZA,Niña,Peinado,Cabeza,Pelo,Tres
+317,CARACOL,Cuernos,Espiral,Arrastrarse,Lento,Jardín
+318,ESPEJO,Vidrio,Retrovisor,Reflejar,Ver,Pared
+319,LADRIDO,Perro,Voz,Asustar,Morder,Guardián
+320,LASAGNA,Pasta,Capas,Comida,Italiano,Horno
+321,ADIVINANZA,Acertijo,Saber,Misterio,Descifrar,Descubrir
+322,CORTINA,Ventana,Tela,Riel,Correr,Cerrar
+323,TARJETA POSTAL,Correo,Vacaciones,Recuerdos,Foto,Cartero
+324,BARRO,Lluvia,Tierra,Lodo,Agua,Fango
+325,PIANO,Instrumento,Música,Teclado,Tocar,Manos
+326,OCULISTA,Consulta,Vista,Miope,Lentes,Medico
+327,DALMATA,Animal,Perro,Raza,Manchas,Ladrar
+328,OFICINA,Negocio,Administración,Trabajo,Secretaria,Escritorio
+329,BATALLA,Armas,Combate,Conflicto,Lucha,Guerra
+330,OMBLIGO,Panza,Cordón,Cicatriz,Marca,Umbilical
+331,FELICIDAD,Bienestar,Alegría,Dichoso,Suerte,Desgracia
+332,ALBONDIGA,Redonda,Comida,Carne,Cacerola,Bola
+333,TORRE EIFEL,París,Francia,Europa,Símbolo,Ciudad Luz
+334,GARGANTA,Cuello,Faringe,Tragar,Amígdalas,Laringe
+335,CARGA,Bultos,Pesada,Camión,Barco,Tren
+336,PIMIENTA,Cocina,Picante,Sabor,Condimento,Sal
+337,BANDA,Música,Orquesta,Grupo,Instrumentos,Marchas
+338,HUERFANO,Padres,Papa,Mama,Asilo,Adoptar
+339,CIRUGIA ESTETICA,Operación,Plástica,Lifting,Arruga,Siliconas
+340,ECO,Voz,Sonido,Repetir,Montaña,Gritar
+341,IBM,Computadora,Impresora,Monitor,Marca,Teclado
+342,MAQUILLAJE,Perfumería,Belleza,Cosmético,Salir,Arreglarse
+343,LABERINTO,Perderse,Camino,Entrada,Salir,Lugar
+344,ZURDO,Mano,Izquierda,Derecha,Comunista,Maradona
+345,OPERA,Cantar,Escena,Música,Pavarotti,Tenor
+346,ESPADA,Acero,Arma,Cuchillo,Esgrima,Sable
+347,CUCHILLO,Cuchara,Tenedor,Cortar,Cubierto,Afilado
+348,SEMILLA,Plantar,Tierra,Flor,Crecer,Regar
+349,CANDADO,Cerradura,Llaves,Ladrón,Seguridad,Combinación
+350,CIEGO,Bastón,Lazarillo,Ver,Perro,Braile
+351,CONEJO,Animal,Dientes,Orejas,Bugs Bunny,Zanahoria
+352,EMBAJADOR,País,Diplomático,Extranjero,Político,Representar
+353,CODIGO,Lenguaje,Morse,Descifrar,Secreto,Clave
+354,HUEVO,Clara,Gallina,Frito,Comida,Yema
+355,TROMPETA,Instrumento,Música,Tocar,Louis Amstrong,Jazz
+356,CALLE,Avenida,Semáforo,Negocios,Vereda,Cruzar
+357,DESTORNILLADOR,Herramienta,Mano,Tuerca,Clavo,Vuelta
+358,COWBOY,Pistola,Sombrero,Caballo,Indios,Oeste
+359,ARAÑA,Insecto,Tarántula,Tejes,Tela,Ratas
+360,SUPERMAN,Criptonita,Louis Lane,Clarck Kent,Película,Colar
+361,UNIVERSIDAD,Estudios,Cátedra,Facultad,Carrera,Terciario
+362,ESCAPARSE,Huir,Quedarse,Evadirse,Rápido,Correr
+363,MARINERO,Soldado,Blanco,Puerto,Barco,Popeye
+364,MESA,Silla,Mueble,Comer,Patas,Mantel
+365,LINTERNA,Luz,Portátil,Lámpara,Pilas,Farol
+366,DENTISTA,Boca,Caries,Torno,Anestesia,Muelas
+367,ACUARIO,Agua,Mar,Zoológico,Pecera,Casa
+368,ADAN,Serpiente,Eva,Hombre,Manzana,Paraíso
+369,CERDO,Animal,Embutido,Jamón,Chancho,Fiambre
+370,COLMENA,Abeja,Avispa,Aguijón,Miel,Panal
+371,ANTIDOTO,Medicamento,Cura,Salvar,Remedio,Veneno
+372,CUCHARA,Tenedor,Mesa,Comer,Sopa,Cuchillo
+373,CEPILLO DE DIENTES,Cerdas,Boca,Pasta,Fluor,Limpiar
+374,RADIO,FM,AM,Dial,Noticias,Sintonía
+375,ACTOR,Artista,Interprete,Películas,Teatro,Televisión
+376,ALBERT EINSTEIN,Teoría,Bomba atómica,Relatividad,Físico,Científico
+377,POSITIVO,Resultado,Si,Mas,Negativo,Signo
+378,PIRELLI,Neumáticos,Ruedas,Llanta,Auto,Marca
+379,TROFEO,Carrera,Ganar,Campeón,Premio,Copa
+380,FECHA,Mes,Año,Almanaque,Día,Calendario
+381,CARPINTERO,Madera,Lija,Ebanista,Barnizar,Mueble
+382,ERROR,Equivocarse,Fallar,Mal,Lapsus,Acierto
+383,CUERPO HUMANO,Anatomía,Piernas,Esqueleto,Cadáver,Musculos
+384,SHERLOCK HOLMES,Watson,Detective,Lupa,Pipa,Ingles
+385,LENGUA,Boca,Gusto,Chupar,Hablar,Idioma
+386,SOBRE,Carta,Remitente,Correo,Buzón,Sello
+387,POEMA,Palabra,Escribir,Rima,Verso,Declamar
+388,BIKINI,Tanga,Playa,Baño,Malla,Dos piezas
+389,SMOKING,Traje de etiqueta,Negro,Ceremonia,Gala,Frac
+390,ESCLAVO,Encadenado,Libre,Escapar,Cautivo,Prisionero
+391,PONCHO,Gaucho,Cubrir,Ropa,Cabeza,Capa
+392,ACOMODADOR,Cine,Linterna,Asiento,Propina,Programa
+393,ELEGANTE,Atractivo,Aspecto,Encantador,Bien vestido,Ropa
+394,BIGOTES,Mostachos,Boca,Pelo,Barba,Labio
+395,MOÑO,Nudo,Corbata,Atar,Seda,Regalo
+396,TUNEL,Agujero,Subterráneo,Pasar,Montañas,Puente
+397,ARCO IRIS,Lluvia,Cielo,Colores,Curva,Sol
+398,INVERNADERO,Caliente,Cultivar,Cubierto,Plantas,Vidrio
+399,AMENAZA,Asustar,Carta,Peligro,Advertencia,Aviso
+400,ZAPATILLAS,Calzado,Caminar,Deportes,Suela,Medias
+401,VIOLIN,Cuerdas,Instrumento,Música,Arco,Stradivarius
+402,ARENA,Playa,Fina,Piedra,Rocas,Erosión
+403,NUDILLO,Hueso,Articulación,Parte,Mano,Dedo
+404,ESTADIO,Espectador,Cancha,Deportivo,Futbol,Olímpico
+405,PENTAGRAMA,Líneas,Cinco,Música,Componer,Notas
+406,ESTATUA DE LA LIBERTAD,Mujer,Antorcha,Monumento,Estados Unidos,New York
+407,BILLAR,Juego,Bolas,Pool,Taco,Carambola
+408,AMBULANCIA,Camilla,Hospital,Vehiculo,Herido,Sirena
+409,ICEBERG,Hielo,Polo,Glaciar,Flotante,Titanic
+410,ARRUGA,Planchar,Línea,Cara,Piel,Viejo
+411,PELUCA,Postizos,Cabeza,Cabellera,Pelado,Artificial
+412,MICROBIO,Pequeño,Infección,Antibióticos,Vacuna,Enfermedad
+413,ALBAÑIL,Construcción,Ladrillo,Casa,Obra,Cemento
+414,PISTOLA,Arma,Revolver,Disparar,Balas,Gatillo
+415,CARNICERO,Vender,Vaca,Comprar,Asado,Mercado
+416,REVOLUCION,De mayo,Francesa,Movimiento,Sublevación,Levantamiento
+417,MURCIELAGO,Vampiro,Colmillos,Batman,Sangre,Noche
+418,CAMA,Dormir,Colchón,Almohada,Acostarse,Sueño
+419,JARDIN,Botánico,Pasto,Japonés,Flores,Plantas
+420,PROSTITUTA,Puta,Mujer,Pagar,Profesional,Calle
+421,CAÑO,Tubo,Agua,Electricidad,Redondo,Hueco
+422,VELA,Luz,Cera,Candelabro,Cumpleaños,Mecha
+423,ORO,Dientes,Metal precioso,Kilate,Anillo,Caro
+424,CALENDARIO,Mes,Almanaque,Fecha,Días,Año
+425,PINGüINO,Antártida,Animal,Blanco,Negro,Pájaro
+426,COÑAC,Copa,Bebida,Alcohol,Reserva San Juan,Licor
+427,AMPOLLA,Herida,Piel,Quemadura,Roce,Zapatos
+428,VIUDA,Marido,Negro,Muerte,Mujer,Duelo
+429,DISFRAZ,Baile,Traje,Carnaval,Mascara,Fiesta
+430,ESTRANGULAR,Asesinar,Asfixiar,Matar,Cuello,Garganta
+431,ESTEROIDES,Doping,Droga,Atleta,Hormonas,Músculos
+432,COPA,Beber,Agua,Cristal,Vidrio,Vaso
+433,AVESTRUZ,Animal,Plumas,Esconder,Correr,Ala
+434,BATUTA,Director,Orquesta,Palo,Varilla,Músicos
+435,PODIO,Campeón,Ganador,Pedestal,Triunfador,Subir
+436,IMAN,Hierro,Atracción,Brújula,Norte,Magnético
+437,ADOLESCENTE,Adulto,Chico,Joven,Muchacho,Pubertad
+438,CARCEL,Barrotes,Prisión,Celda,Delincuente,Ladrón
+439,BOMBON,Comer,Dulce,Caramelo,Chocolate,Caja
+440,AYUDA,Apoyo,Auxilio,Socorro,Problema,Asistencia
+441,CARA,Frente,Boca,Ojos,Cabeza,Nariz
+442,SIRENA,Pez,Canto,Mar,Cola,Mujer
+443,CARNADA,Cebo,Caña,Anzuelo,Pescar,Lombriz
+444,SATELITE,Espacio,TV,Orbita,Luna,Artificial
+445,SIMPLE,Difícil,Doble,Fácil,Compuesto,Sencillo
+446,CUNA,Dormir,Bebe,Canción,Barrotes,Muebles
+447,DEDAL,Aguja,Pinchar,Metal,Protección,Coser
+448,MOTOR,Mover,Coche,Capot,Maquina,Mecánica
+449,DESCIFRAR,Jeroglífico,Código,Leer,Secreto,Clave
+450,VENUS,Mercurio,Plutón,Espacio,Planeta,Luna
+451,COSECHA,Siembra,Recolección,Fruta,Trigo,Campesino
+452,VACACIONES,Trabajo,Descanso,Verano,Viaje,Playa
+453,SECRETO,Confidencial,Saber,Conservar,Decir,Guardar
+454,AUTOGRAFO,Fan,Lapicera,Famoso,Firma,Nombre
+455,AMOR,Querer,Casamiento,Corazón,Afecto,Odio
+456,PARIS,Torre Eiffel,Francois Mitterrand,Francia,Europa,Capital
+457,DETECTIVE,Crimen,Pista,Investigador,Sherlock Holmes,Lupa
+458,CIRCULO,Anillo,Redondo,Compás,Línea,Curva
+459,CASAMIENTO,Boda,Iglesia,Luna de Miel,Novia,Civil
+460,CEBRA,Animal,Blanco,Caballo,Rayado,Negro
+461,CAMISA,Corbata,Pantalón,Manga,Botón,Saco
+462,VIBORA,Cleopatra,Serpiente,Culebra,Reptil,Veneno
+463,COCHE FUNEBRE,Cementerio,Llevar,Funeral,Muerto,Vehiculo
+464,MANTECA,Alimento,Vaca,Leche,Margarina,Untar
+465,ACEITUNA,Negra,Carozo,Olivo,Clemente,Verde
+466,MARCO,Foto,Cuadro,Retrato,Puerta,Pintura
+467,MAFALDA,Dibujo,Quino,Chiste,Niña,Manolito
+468,TITERE,Marioneta,Hilos,Madera,Muñecos,Mano
+469,PESCADOR,Pez,Caña,Anzuelo,Carnada,Lombriz
+470,MULETAS,Caminar,Discapacitado,Yeso,Pierna,Roto
+471,CALCULADORA,Operaciones,Maquina,Aparato,Números,Pilas
+472,PELE,Futbolista,N' 10,Brasileño,Deportista,Xuxa
+473,TELARAÑA,Polvo,Hilo,Insecto,Plumero,Trampa
+474,ONDA,Ola,Movimiento,Mar,Línea,Curva
+475,SOLTERO,Casado,Novio,Estado Civil,Despedida,Compromiso
+476,MARTILLO,Clavo,Maza,Herramienta,Golpear,Dedo
+477,PIPA,Fumar,Tabaco,Cigarrillo,Humo,Nicotina
+478,PALMADA,Amistoso,Golpecito,Espalda,Mano,Aplauso
+479,ADIDAS,Tres tiras,Indumentaria,Deportes,Zapatillas,Ropa
+480,FLAN,Leche,Molde,Postre,Huevos,Caramelo
+481,MOLINO DE VIENTO,Campo,Aspas,Holanda,Harina,Don Quijote
+482,RECETA,Comida,Indicaciones,Ingredientes,Instrucciones,Cocinar
+483,TABACO,Cigarrillo,Hojas,Fumar,Habano,Pipa
+484,ELEFANTE,Marfil,Africa,Trompa,Colmillo,Dumbo
+485,CANGREJO,Pinzas,Crustáceo,Caparazón,Caminar,Mar
+486,VAMPIRO,Murciélago,Sangre,Chupar,Drácula,Cuello
+487,PELUQUERO,Afeitar,Cabello,Cortar,Bigotes,Tijeras
+488,HAREN,Muchas,Mujeres,Sultan,Musulmán,Concubinas
+489,SANDIA,Jugosa,Verano,Fruta,Semilla,Verde
+490,CHAMPAGNE,Frances,Brindar,Corcho,Vino,Sidra
+491,SKATE,Patineta,Monopatín,Cuatro,Ruedas,Tabla
+492,POSAR,Cuadro,Pintor,Desnudo,Modelo,Postura
+493,PAISAJE,Viaje,Campo,Panorama,Horizonte,Vista
+494,OVNI,Espacio,Nave,Extraterrestre,Luna,Marciano
+495,PARASOL,Luz,Playa,Paraguas,Proteger,Sombrilla
+496,CESTO,Ropa,Mimbre,Huevos,Canasta,Guardar
+497,FAX,Copia,Mensaje,Enviar,Rápido,Teléfono
+498,FABRICA,Industria,Operarios,Producir,Obreros,Maquinas
+499,TELESCOPIO,Astrónomo,Estrellas,Observatorio,Planetas,Microscopio
+500,CHISMOSO,Noticia,Soplón,Criticar,Rumores,Entrometido
+501,PUERTO,Mar,Muelle,Barco,Carga,Anclar
+502,IZQUIERDA,Lado,Derecha,Zurdo,Comunista,Dirección
+503,KAMIKAZE,Guerra,Suicida,Piloto,Japonés,Aviador
+504,BELLEZA,Concurso,Hermosa,Linda,Mujer,Salón
+505,CEMENTERIO,Tumba,Enterrar,Funeral,Muerte,Lápida
+506,CACTUS,Pincha,Agua,Arena,Desierto,Planta
+507,AXE,Axilas,Perfume,Desodorante,Marca,Aerosol
+508,BIBLIA,Religión,Dios,Libro,Santo,Testamento
+509,YOGUR,Descremado,Cucharita,Leche,Bebible,Vaca
+510,CHOQUE,Accidente,Coche,Colisión,Golpe,Conducir
+511,ENCHUFE,Electricidad,Cables,Luz,Corriente,Electrodomésticos
+512,CARRERA DE CABALLOS,Apuestas,Stud,Hipódromo,Pura sangre,Jockey
+513,CAMELLO,Animal,Desierto,Joroba,Arena,Dromedario
+514,BARBA,Afeitar,Bigote,Hombre,Tijeras,Pelo
+515,JUEZ,Sentencia,Jurado,Fiscal,Tribunal,Señoria
+516,LIBRO,Leer,Biblioteca,Hojas,Encuadernado,Pagina
+517,KARATE,Artes Marciales,Judo,Oriental,Bruce Lee,Ninja
+518,TARJETA DE CREDITO,Dinero,Plástico,Comprar,Plata,Pagar
+519,DEPARTAMENTO,Ascensor,Alquilar,Edificio,Piso,Vivienda
+520,LLAVE,Puerta,Candado,Coche,Cerradura,Abrir
+521,PLUMA,Escribir,Almohada,Ave,Pájaro,Alas
+522,SECUESTRAR,Esconder,Raptar,Rehén,Rescate,Delito
+523,TEATRO,Escena,Función,Actores,Director,Telón
+524,COMPACT DISC,Escuchar,Láser,Canción,Casette,Música
+525,COMPASION,Sensible,Pena,Piedad,Sensación,Desgracia
+526,DICCIONARIO,Definición,Libro,Palabra,Significado,Larousse
+527,ALPINISTA,Escalar,Trepar,Montaña,Cuerdas,Himalaya
+528,CAJA,Envase,Cartón,Guardar,Cofre,Recipiente
+529,COMETA,Estrella,Cielo,Espacio,Astro,Halley
+530,CINTA DE VIDEO,Película,Casete,TV,Cine,Socio
+531,LOCO,Enojado,Furioso,Demente,Trastornado,Manicomio
+532,BARRIO,Calle,Casa,Vecindario,Gente,Ciudad
+533,DIEGO MARADONA,Deportista,Numero 10,Boca,Selección,Futbol
+534,ATAQUE,Asalto,Violencia,Agresión,Defender,Ofensiva
+535,ALUMINIO,Metal,Cacerola,Avión,Acero,Liviano
+536,LADRON,Robar,Asalto,Arma,Banco,Delincuente
+537,GARAGE,Estacionamiento,Automóvil,Parking,Cochera,Guardar
+538,SILLA,Respaldo,Sentarse,Descansar,Patas,Mueble
+539,CASCARA,Banana,Recubrimiento,Envoltura,Naranja,Piel
+540,PELICULA,Cine,Pantalla,Film,Video,Actores
+541,ESPONJA,Bañarse,Jabón,Frotar,Espuma,Ducha
+542,ABOGADO,Defensa,Acusado,Letrado,Prueba,Juicio
+543,CLAUSTROFOBIA,Cerrado,Miedo,Pánico,Sensación,Angustia
+544,ANTIGUO,Edad,Tiempo,Años,Historia,Viejo
+545,TARANTULA,Negro,Insecto,Araña,Veneno,Peludo
+546,POLLO,Ave,Plumas,Comer,Gallina,Pavo
+547,POMADA,Ungüento,Piel,Untar,Crema,Medicamento
+548,TIMIDO,Vergüenza,Rubor,Callado,Temeroso,Miedo
+549,SED,Bebida,Gaseosa,Seco,Agua,Calmar
+550,ESTRELLA,Espacio,Planeta,Luna,Fugaz,Noche
+551,PLANEADOR,Volar,Avión,Motor,Alas,Piloto
+552,CANGURO,Animal,Australia,Bolsa,Salto,Mamífero
+553,CRUCERO,Barco,Mar,Vacaciones,Viaje,Camarote
+554,CLUB,Deportes,Socio,Cuota,Jugar,Vestuario
+555,VISA,Tarjeta,Plata,Marca,Crédito,Pagar
+556,AMULETO,Talismán,Suerte,Superstición,Pata de conejo,Mascota
+557,RONCAR,Noche,Ruido,Nariz,Dormir,Molestar
+558,CONTRATO,Papel,Firmar,Acuerdo,Alquiler,Escritorio
+559,BINGO,Lotería,Azar,Juego,Números,Tarjetas
+560,REUNION,Trabajo,Grupo,Gente,Juntarse,Fiesta
+561,NEGATIVO,Polos,Mas,Signo,No,Positivo
+562,BROMA,Chiste,Cómico,Joda,Risa,Diversión
+563,APAGAR,Prender,Encender,Interruptor,Sofocar,Luz
+564,TRONCO,Árbol,Leña,Madera,Rama,Raíz
+565,TEJA,Casa,Rojo,Lluvia,Techo,Cubrir
+566,DESAYUNO,Cena,Almuerzo,Merienda,Levantarse,Mañana
+567,MICROONDAS,Cocinar,Horno,Descongelar,Comida,Eléctrico
+568,TIERRA,Hemisferios,Planta,Mundo,Planeta,Maceta
+569,FARMACIA,Medico,Inyección,Remedios,Receta,Turno
+570,BISTURI,Quirófano,Instrumento,Cortar,Cirujano,Operar
+571,NOVELA,Libro,Leer,Escritor,Narración,Cuento
+572,PAÑAL,Bebe,Caca,Pis,Descartable,Talco
+573,JABALINA,Lanza,Olimpiadas,Atletismo,Tirar,Disciplina
+574,MICKEY,Walt Disney,Dibujos animados,Ratón,Minnie,Pluto
+575,APLAUSO,Golpear,Palmas,Manos,Ovación,Espectáculo
+576,CURANDERO,Doctor,Tribu,Enfermo,Remedio,Medico
+577,SOÑAR,Noche,Dormir,Despierto,Cama,Pesadilla
+578,TORPEDO,Barco,Misil,Explosión,Submarino,Bomba
+579,PING PONG,Paleta,Red,Pelota,Juego,Tenis de Mesa
+580,CARNE,Vaca,Asado,Comer,Milanesa,Hamburguesa
+581,AUSTRALIA,Canguro,Isla,Koala,País,Sydney
+582,RESCATE,Dinero,Pago,Rehén,Secuestrar,Instrucciones
+583,VIRGEN,Maria,Hombre,Himen,Lujan,Sexo
+584,BORRACHO,Mamado,Ebrio,Tomar,Vino,Alcohólico
+585,HUMO,Smog,Fuego,Quemar,Cigarrillo,Chimenea
+586,FIDEOS,Spaguetti,Pasta,Tuco,Tallarin,Comida
+587,ORQUESTA,Director,Instrumentos,Músicos,Concierto,Sinfonía
+588,JIRAFA,Alto,Animal,Cuello,Manchas,Largo
+589,SORPRESA,Cumpleaños,Regalo,Fiesta,Inesperada,Imprevisto
+590,MINIFALDA,Pollera,Ropa,Mujer,Corta,Vestido
+591,COSQUILLAS,Dedos,Hacer,Pies,Sensación,Risa
+592,NEUMONIA,Enfermedad,Frío,Bronquios,Pulmón,Inflamación
+593,BUHO,Árbol,Grito,Pájaro,Sabio,Noche
+594,PULMON,Corazón,Respirar,Dos,Torax,Cuerpo
+595,COMISARIA,Patrullero,Policía,Detenerse,Barrio,Calabozo
+596,MOSTAZA,Savora,Condimento,Pancho,Hamburguesa,Salchicha
+597,FIDEL CASTRO,Barba,Isla,Cuba,Presidente,Caribe
+598,LIBRE,Ocupado,Taxi,Preso,Esclavo,Pájaro
+599,DIENTE,Boca,Caries,Muela,Torno,Encías
+600,SEMAFORO,Trafico,Calle,Señal,Rojo,Verde
+601,LINEA,Raya,Escribir,Trazo,Recta,Curva
+602,IDIOMA,Lengua,País,Diccionario,Traducir,Estudiar
+603,TESTICULOS,Genitales,Pene,Hombre,Semen,Bolas
+604,KODAK,Cámara,Fotografía,Film,Marca,Revelar
+605,EMERGENCIA,Ambulancia,Urgencia,S.O.S.,Llamada,Accidente
+606,MILLONARIO,Jet-Set,Tener,Rico,Dinero,Plata
+607,CANOA,Agua,Navegar,Indio,Remo,Bote
+608,REVISTA,Diario,Fotos,Leer,Publicación,Quiosco
+609,CALVO,Cabeza,Pelado,Pelo,Cabello,Postizo
+610,JADEAR,Gemir,Gritar,Respirar,Boca,Gozar
+611,QUIETO,Agitado,Tranquilo,Inmóvil,Moverse,Sentado
+612,PLANO,Construir,Guía,Edificio,Arquitecto,Mapa
+613,ARROZ,Cereal,Comida,Grano,Chino,Integral
+614,CIENTIFICO,Descubrimiento,Experimento,Laboratorio,Microscopio,Tubo de ensayo
+615,GEOMETRIA,Ángulos,Escuela,Escuadra,Compas,Polígonos
+616,INVISIBLE,Hombre,Ver,Mirar,Transparente,Fantasma
+617,CARPETA,Cuaderno,Hojas,Tapas,Forro,Colegio
+618,CHEQUE,Banco,Plata,Pagar,Papel,Firmar
+619,BIBLIOTECA,Escritores,Leer,Libros,Silencio,Fichero
+620,SEÑAL,Marca,Huella,Ruta,Cartel,Indicio
+621,CARTAS DE TAROT,Bola de cristal,Adivinar,Futuro,Gitano,Naipes
+622,PARTE,Entero,Trozo,Pedazo,Fracción,Fragmento
+623,RAMBO,Sylvester Stallone,Rocky,Actor,Película,Vietnam
+624,LEVADURA,Masa,Pan,Harina,Cocinar,Royal
+625,SONRISA,Dientes,Labios,Cara,Boca,Alegría
+626,GATO,Animal,Felino,Arañar,Maullido,Ronroneo
+627,ARBITRO,Juez,Reglas,Deportes,Futbol,Referi
+628,GUERRA,Batalla,Armas,Ejercito,Soldados,Combate
+629,SAUNA,Gimnasio,Calor,Transpirar,Vapor,Adelgazar
+630,BARRIL,Cerveza,Tonel,Madera,Vino,Cuba
+631,AVION,Alas,Aire,Volar,Piloto,Aeropuerto
+632,ESTUFA,Frío,Calentar,Hogar,Invierno,Gas
+633,COLLAR,Perlas,Joya,Colgante,Adorno,Garganta
+634,OLOR,Sentido,Nariz,Aroma,Fragancia,Perfume
+635,HUMOR,Alegría,Animo,Broma,Risa,Comedia
+636,HOMOSEXUAL,Lesbiana,Mariposón,Travesti,Trolo,Maricón
+637,ANIVERSARIO,Casamiento,Celebración,Festejo,Fecha,Cumpleaños
+638,CARTERA,Bolso,Documentos,Billetera,Mujer,Llaves
+639,MASCARA,Carnaval,Antifaz,Cara,Disfraz,Cubrir
+640,INVITADO,Boda,Cumpleaños,Fiesta,Amigos,Convidar
+641,CUCARACHA,Insecto,Cocina,Bicho,Nocturno,Comida
+642,BUFANDA,Frío,Lana,Boca,Proteger,Cuello
+643,MODA,Ropa,Alta costura,Onda,Temporada,Desfile
+644,DELFIN,Ballena,Mar,Animal,Amaestrado,Mamífero
+645,GOLF,Caddy,Hoyos,18,Golpe,Palos
+646,COSTILLAS,Esqueleto,Espalda,Huesos,Pecho,Cuerpo
+647,GUANTE,Manos,Dedos,Invierno,Boxeador,Lana
+648,DIBUJOS ANIMADOS,Caricatura,Niños,Película,Tom & Jerry,Televisión
+649,ESCOBA,Barrer,Limpiar,Bruja,Piso,Paja
+650,ENREDADERA,Jardín,Subir,Planta,Pared,Trepar
+651,INVERSION,Finanzas,Bolsa,Dinero,Acciones,Banco
+652,ESPALDA,Columna Vertebral,Pecho,Mochila,Cuerpo,Hombros
+653,CORAZON,Rojo,Amor,Músculo,Sangre,Latir
+654,CHOFER,Coche,Conductor,Manejar,Volante,Camión
+655,JOCKEY,Carrera,Fusta,Hipódromo,Montar,Caballo
+656,DIVISION,Aritmética,Colegio,Matemática,Calculadora,Multiplicación
+657,HOJA,Verde,Caer,Árbol,Planta,Rama
+658,INFANTIL,Bebe,Juguete,Niño,Pequeño,Nene
+659,CIRCUITO,Carrera,Competición,Pista,Formula 1,Recorrido
+660,ISLA,Océano,Mar,Tierra,Rodeada,Agua
+661,RECITAL,Concierto,Instrumentos,Escenario,Grupo,Música
+662,POPEYE,Olivia,Brutus,Dibujo Animado,Espinacas,Marinero
+663,HURACAN,Viento,Ciclon,Tormenta,Tornado,Torbellino
+664,ENTRADA,Puerta,Dentro,Acceso,Ingreso,Salida
+665,DESODORANTE,Transpiración,Olor,Aerosol,Perfume,Axilas
+666,VENECIA,Italia,Ciudad,Agua,Canales,Góndolas
+667,DESIERTO,Oasis,Arena,Sol,Sahara,Espejismo
+668,TENIS,Deporte,Pelota,Cancha,Raqueta,Red
+669,ALGODÓN,Cura,Sangre,Herida,Rama,Farmacia
+670,PLANTA,Verde,Hojas,Regar,Maceta,Vegetal
+671,NESQUIK,Cacao,Polvo,Chocolate,Merienda,Leche
+672,PILDORA,Remedio,Medicina,Enfermo,Pastilla,Tragar
+673,MAYONESA,Mostaza,Hellmann's,Amarilla,Condimento,Sándwich
+674,TARZAN,Chita,Jane,Selva,Grito,Lianas
+675,ESTERIL,Embarazo,Esperma,Fértil,Hijos,Procrear
+676,VERGUENZA,Colorado,Papelón,Bochorno,Tímido,Rubor
+677,MERCADO DE VALORES,Bolsa,Acciones,Vender,Wall Street,Comprar
+678,PRECIOSA,Bella,Hermosa,Linda,Bonita,Piedra
+679,BEISBOL,Golpe,Base,Juego,Bate,Deporte
+680,OSTRA,Perla,Mar,Bivalvo,Marisco,Comer
+681,MIEL,Abejas,Dulce,Panal,Colmena,Insecto
+682,PALA,Herramienta,Sacar,Pozo,Tierra,Agujero
+683,ACONCAGUA,Mendoza,Montaña,Cordillera,Alta,Alpinismo
+684,STRESS,Tensión,Trabajo,Nervios,Presión,Ansiedad
+685,HACHA,Cortar,Bosque,Leñador,Madera,Árbol
+686,AMARILLO,Banana,Sol,Color,Limón,Oro
+687,VENTILADOR,Aire,Techo,Verano,Aspas,Girar
+688,MADERA,Tronco,Leños,Carpintero,Árboles,Tabla
+689,CAMPO,Cultivar,Ciudad,Gaucho,Vacas,Rural
+690,VELOCIMETRO,Auto,RPM.,Reloj,Tacómetro,Aguja
+691,RECREO,Patio,Escuela,Jugar,Campana,Tiempo
+692,SOMBRA,Luz,Árbol,Noche,Obscuridad,Sol
+693,ESCENARIO,Obra,Actores,Espectáculo,Telón,Teatro
+694,TURISTA,Extranjero,Viaje,Visitar,Hotel,Vacaciones
+695,ENFERMERA,Doctor,Consultorio,Medico,Hospital,Blanco
+696,VINO,Alcohol,Bebida,Uvas,Tinto,Blanco
+697,NOVIA,Soltera,Blanco,Casarse,Vestido,Ramo
+698,MONTAÑA,Esquí,Rocas,Escalar,Everest,Cordillera
+699,BAMBI,Animal,Ciervo,Dibujo Animado,Walt Disney,Película
+700,LEVANTARSE,Pararse,Sentarse,Incorporarse,Acostarse,Elevarse
+701,COCA-COLA,Bebida,Gaseosa,Marca,Tomar,Pepsi
+702,ANCHOA,Sardina,Pescado,Lata,Comida,Salado
+703,CRISTOBAL COLON,12 de Octubre,Descubridor,America,Carabelas,Puerto de Palos
+704,DINAMARCA,Holanda,Europa,Escandinavo,País,Copenhague
+705,VENDA,Torcedura,Gasa,Medico,Farmacia,Herida
+706,PEZON,Pechos,Tetas,Mujer,Punta,Leche
+707,CARRETILLA,Llevar,Rueda,Arena,Obra,Tierra
+708,PORNOGRAFIA,Erotismo,Censura,Revistas,Películas,Obseno
+709,TERMOMETRO,Medir,Fiebre,Axila,Temperatura,Cuerpo
+710,HIMEN,Virgen,Mujer,Vagina,Membrana,Sexo
+711,BALCON,Edificio,Departamento,Terraza,Baranda,Calle
+712,CAPATAZ,Encargado,Fabrica,Obreros,Mandar,Trabajo
+713,FANTASMA,Sabana,Miedo,Cadenas,Castillo,Espíritu
+714,HIPODROMO,Carreras,Caballos,Apuestas,Palermo,San Isidro
+715,TOMATE,Rojo,Verdura,Perita,Salsa,Pizza
+716,PLAGIO,Copia,Imitación,Ideas,Delito,Falso
+717,CRIMEN,Cadáver,Asesinato,Victima,Homicidio,Matar
+718,PRUEBA,Tomar,Colegio,Escuela,Test,Examen
+719,LAPIZ,Escribir,Mina,Goma,Sacar punta,Borrar
+720,COSTA,Agua,Playa,Orilla,Mar,Río
+721,AÑO NUEVO,Enero,Fiesta,Primero,Empezar,Diciembre
+722,PAJARO,Nido,Volar,Piar,Alas,Aves
+723,EQUIPAJE,Bolsos,Bultos,Perder,Valija,Viaje
+724,CUADRO,Museo,Pintor,Óleo,Caballete,Tela
+725,TITULO,Libro,Nombre,Palabra,Película,Descripción
+726,RELAMPAGO,Descarga,Nube,Tormenta,Rayo,Trueno
+727,HILO,Zurcir,Aguja,Enhebrar,Cosas,Botón
+728,MANGUERA,Regar,Agua,Canilla,Caño,Goma
+729,VEREDA,Calle,Circular,Peatón,Baldosa,Cordón
+730,MELON,Fruta,Verano,Rodaja,Sandia,Semillas
+731,MOJADO,Paraguas,Lluvia,Agua,Seco,Toalla
+732,POSTE,Cerco,Palo,Columna,Mástil,Arco
+733,FRIGIDA,Insensible,Mujer,Placer,Orgasmo,Sexual
+734,PAQUETE,Correo,Envolver,Caja,Atar,Regalo
+735,CIRCO,Pista,Carpa,Payasos,Trapecista,Domador
+736,ESCALERA,Peldaño,Ascensor,Bajar,Subir,Baranda
+737,ESCORPION,Aguijón,Desierto,Alacrán,Picar,Veneno
+738,COMERCIANTE,Negocio,Minorista,Vender,Comprar,Tienda
+739,COINCIDENCIA,Inesperado,Casualidad,Azar,Involuntario,Suerte
+740,GRANJA,Caballo,Estancia,Vaca,Campo,Ganado
+741,HOTEL,Estrellas,Turistas,Albergue,Hospedaje,Motel
+742,BERENJENA,Comer,Cultivar,Planta,Púrpura,Vegetal
+743,SUDOR,Transpirar,Piel,Ejercicio,Calor,Desodorante
+744,PINTAR,Artista,Cuadro,Colores,Pincel,Pared
+745,NOCHE,Día,Oscuridad,Luna,Estrellas,Sol
+746,HAMSTER,Animal,Jaula,Mascota,Rata,Roedor
+747,ANGEL,Paraíso,Diablo,Demonio,Cielo,Alas
+748,COLCHON,Cama,Almohada,Acostarse,Sabanas,Dormir
+749,SALA DE ESPERA,Consultorio,Revistas,Paciente,Medico,Asientos
+750,CHINA,Oriental,Amarillo,País,Asia,Muralla
+751,FOTOGRAFIA,Revelar,Rollo,Film,Álbum,Cámara
+752,ESPIA,CIA,Side,Traidor,Secreto,James Bond
+753,BRUJULA,Orientarse,Norte,Aguja,Imantada,Cardinales
+754,CALEFACCION,Invierno,Estufa,Aire,Caldera,Frío
+755,RIMMEL,Ojos,Maquillaje,Cepillo,Cosmético,Pestaña
+756,GIRASOL,Planta,Semillas,Aceite,Flor,Amarillo
+757,GRANERO,Trigo,Edificio,Silo,Cereales,Campo
+758,CINE,Película,Pantalla,Filmar,Proyectar,Cámara
+759,BEBIDA,Liquido,Tomar,Agua,Sed,Brindar
+760,DINERO,Comprar,Plata,Moneda,Billetes,Guita
+761,PELOTA,Balón,Redonda,Futbol,Bola,Patear
+762,BOTELLA,Tapón,Envase,Recipiente,Vidrio,Frasco
+763,ARTISTA,Pintor,Escultor,Actor,Fama,Premio
+764,DIABLO,Lucifer,Ángel,Demonio,Infierno,Satanás
+765,CUPIDO,Arco,Flechazo,Amor,Dios,Corazón
+766,AZULEJO,Cerámica,Pared,Baño,Cocina,Decoración
+767,MANZANA,Comer,Sidra,Verde,Rojo,Fruta
+768,NIEVE,Blanca,Agua,Invierno,Esquiar,Frío
+769,BUS ESCOLAR,Colegio,Niño,Vehiculo,Chicos,Naranja
+770,CORPIÑO,Ropa,Sostén,Pechos,Mujer,Lencería
+771,MUÑECO,Niñas,Cocolín,Juguete,Mama,Regalo
+772,VÁTER,Baño,Recepción,Inodoro,Pintarse,Lavarse
+773,FRIGORÍFICO,Conservar,Comida,Frío,Refrigerador,Cubitos
+774,TAMBOR,Baquetas,Batería,Percusión,Música,Instrumento
+775,BICICLETA,2 ruedas,Tour,Moto,Manillar,Pedal
+776,LAPICERA,Minas,Escribir,Papel,Tinta,Cartucho
+777,CERVEZA,Bebida,Alcohol,Espuma,Caña,Barril
+778,CANARIO,Pájaro,Jaula,Canto,Amarillo,Piolín
+779,AGENDA,Abecedario,Días,Direcciones,Teléfonos,Cuaderno
+780,ESTACION,Terminal,Tren,Parada,Anden,Taquilla
+781,FUEGO,Cerilla,Llamas,Hoguera,Quemar,Leña
+782,AGENTE DE POLICIA,Esposas,Agente,Patrulla,Comisaría,Arrestar
+783,HERIDA,Sangre,Corte,Tirita,Coser,Puntos
+784,BALONCESTO,Deporte,Pelota,Equipo,Canasta,Cancha
+785,CABINA TELEFÓNICA,Llamar,Calle,Hablar,Público,Monedas
+786,PIZZA,Napolitana,Mozzarella,Queso,Italia,Horno
+787,GOL,Pelota,Marcar,Puntuación,Futbol,Portería
+788,LAVADORA,Maquina,Electrodoméstico,Tambor,Centrifugar,Jabón
+789,LENTES DE CONTACTO,Duras,Blandas,Gafas,Colores,Vista
+790,CIUDAD,Municipio,Capital,Población,Edificios,Alcalde
+791,PAÑUELO,Nariz,Sonarse,Tela,Mocos,Resfriado
+792,TELEFONO,Numero,Llamar,Movistar,Marcar,Ocupado
+793,TRAPO,Secar,Platos,Cocina,Tela,Paño
+794,COLOR,Amarillo,Rojo,Verde,Azul,Marrón
+795,VOTO,Sufragio,Presidente,Cabina,Urna,Elecciones
+796,LACOSTE,Pijo,Marca,Ropa,Cocodrilo,Lagarto
+797,DUCHA,Baño,Alcachofa,Toalla,Agua,Cuerpo
+798,MARATON,Carrera,Competición,Kilómetros,Olimpiadas,Grecia
+799,SUERTE,Buena,Gafe,Amuleto,Mala,Superstición
+800,PALILLO,Madera,Palito,Aperitivo,Boca,Hilo dental
+801,FLORERO,Planta,Recipiente,Ramo,Jarrón,Agua
+802,BIBERÓN,Leche,Tetina,Comer,Bebe,Chupar
+803,PERCHA,Colgar,Ropa,Camisa,Arruga,Vestido
+804,ALCALDE,Funcionario,Ciudad,Municipal,Pueblo,Cargo
+805,TETERA,Infusión,Calentar,Té,Agua,Preparar
+806,ESTORNUDO,Tos,Resfriado,Nariz,Pañuelo,Pimienta
+807,GUARDAESPALDAS,Matón,Policía,Detective,Proteger,Cuidar
+808,DIARIO,Periódico,Matutino,Vespertino,Quiosco,Prensa
+809,DESFILE,Moda,Pasar,Modelo,Militar,Marcha
+810,ROSA,Espinas,Flor,Pétalo,Color,Rojo
+811,LOTERIA,Billete,Números,Cupón,Sorteo,Juego
+812,DADOS,Parchís,Tirar,Juego,Cubo,Caras
+813,CASPA,Cuero Cabelludo,Champú,Pelo,Tener,Cabeza
+814,BAÑO,Espejo,Váter,Ducha,Lavarse,Inodoro
+815,TORTUGA,Animal,Concha,Lenta,Caparazón,Koopa
+816,PATATA,Papa,Comer,Puré,Tortilla,Fritas
+817,SALCHICHA,Mostaza,Oscar Mayer,Perrito,Frankfurt,Comer
+818,MANILLAR,Bicicleta,Volante,Dirigir,Timbre,Freno
+819,AMANECER,Día,Noche,Sol,Alba,Principio
+820,TINTA,Lapicera,Escribir,Bolígrafo,Pintar,Cartucho
+821,FONTANERO,Gotera,Agua,Caños,Arreglar,Tuberías
+822,ORDENADOR,Programa,Impresora,Disquete,Monitor,Teclado
+823,IGLÚ,Alaska,Esquimal,Nieve,Casa,Hielo
+824,BILLETE,Tren,Metro,Pasaje,Sacar,Taquilla
+825,SOLDADO,Pelotón,Guerra,Militar,Maniobras,Ejercito
+826,BASTON,Apoyar,Cojo,Palo,Caminar,Viejo
+827,EMBUDO,Botella,Liquido,Gasolina,Hueco,Llenar
+828,CHICLE,Trident,Golosina,Boomer,Globo,Masticar
+829,IMPUESTOS,IVA,Pagar,IRPF,Réditos,Ganancias
+830,UNICORNIO,Cuerno,Animal,Patas,Caballo,Azul
+831,VENTRILOCUO,Muñeco,Doña Rogelia,Hablar,Vientre,Boca
+832,CONDUCIR,Auto,Volante,Coche,Conductor,Vehiculo
+833,TRAMPOLIN,Piscina,Zambullida,Nadar,Agua,Tirarse
+834,JUGUETE,Niños,Reyes,Regalo,Navidad,Coche
+835,BANDERA,Ondear,País,Mástil,Azul,Símbolo
+836,CEMENTO,Cal,Arena,Suelo,Ladrillos,Obra
+837,SONAMBULO,Dormir,Caminar,Sueño,Levantarse,Noche
+838,METRO,Tren,Transporte,Ciudad,Debajo,Estación
+839,TIRITA,Corte,Sangre,Venda,Protección,Herida
+840,ZOOLOGICO,Animales,Jaulas,Jardín Botánico,Cautiverio,León
+841,ALMOHADA,Sofá,Sillón,Apoyacabezas,Plumas,Funda
+842,TARTA,Dulce,Postre,Cumpleaños,Pastel,Velitas
+843,FUTBOL,Maradona,Deporte,Portería,Gol,Pelota
+844,RETRATO,DNI,Cara,Dibujar,Fotografía,Pintura
+845,ALBUM,Cromos,Colección,Fotos,Libro,Panini
+846,PRISMATICOS,Avistar,Mirar,Catalejo,Anteojos,Cerca
+847,FALSO,Mentir,Verdadero,Cuadros,Dinero,Trucho
+848,AGUA,Liquido,Beber,Tomar,Sed,Grifo
+849,GAFAS DE SOL,Lentes,Ojos,Oscuros,Luz,Rayban
+850,DESCONGELAR,Derretir,Deshielo,Congelador,Agua,Heladera
+851,BIG BEN,Inglaterra,Londres,Monumento,Reloj,Tiempo
+852,TERMO,Botella,Caliente,Frío,Agua,Café
+853,PIC NIC,Cesta,Comer,Pasto,Excursión,Domingo
+854,GAS,Estufa,Cocinar,Bombona,Calefacción,Calentador
+855,TREN,Vías,Humo,Locomotora,Vehiculo,Vagón
+856,PRESERVATIVO,Profiláctico,Condón,Latex,Sida,Pene
+857,PADEL,Pala,Tenis,Red,Deporte,Paredes
+858,MUS,Chica,Juego,Envido,Quiero,Cartas
+859,TOCADISCOS,Bandeja,Revoluciones,Vinilo,Aguja,Música
+860,TOALLA,Manos,Mojado,Secarse,Lavabo,Baño
+861,IRRITAR,Alterar,Joder,Molestar,Enojar,Nervios
+862,CASINO,Apostar,Black Jack,Ruleta,Croupier,Tragaperras
+863,AGUILA,Ave,Pájaro,Rapiña,Volar,Alas
+864,CAJA FUERTE,Combinación,Ladrones,Guardar,Robar,Joyas
+865,CARREFOUR,Supermercado,Caja,Carrito,Comprar,Continente
+866,NARANJA,Fruta,Zumo,Amarillo,Cítrico,Limón
+867,ACNE,Cara,Roacutan,Adolescente,Punto,Grano
+868,BEBE,Biberón,Chupete,Nacer,Pañales,Cuna
+869,TRAGAPERRAS,Tres,Casino,Maquina,Jugar,Azar
+870,ESPERMATOZOIDE,Pene,Eyacular,Ovulo,Testículos,Semen
+871,PROFESION,Carrera,Trabajo,Puesto,Ocupación,Oficio
+872,BATMAN,Catwoman,Gotham,Robin,Superhéroe,Joker
+873,ALTAVOZ,Bafle,Escuchar,Música,Estéreo,Dolby
+874,CERILLAS,Madera,Fuego,Prender,Encendedor,Fósforos
