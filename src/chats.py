@@ -1,7 +1,7 @@
 from autogen.agentchat import initiate_chats
 from autogen import register_function
-from agents import HintEvaluator, HintEvaluatorAssistant, HintGenerator, GuessEvaluator, GuessGenerator, GameHelper, Player
-from evaluate_hint import evaluate_hint
+from .agents import HintEvaluator, HintEvaluatorAssistant, HintGenerator, GuessEvaluator, GuessGenerator, GameHelper, Player
+from .evaluate_hint import evaluate_hint
 
 class PlayerHintChat():
     """

@@ -1,7 +1,7 @@
 import random
 import pandas as pd
-from utils import CircularBuffer
-from chats import PlayerHintChat, PlayerGuessChat, CpuChat
+from .utils import CircularBuffer
+from .chats import PlayerHintChat, PlayerGuessChat, CpuChat
 
 class Game():
     """
