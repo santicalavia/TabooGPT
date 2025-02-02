@@ -1,4 +1,5 @@
 import argparse
+import asyncio
 from dotenv import load_dotenv
 from src import Game
 
@@ -16,7 +17,8 @@ args = parser.parse_args()
 
 # Create game instance and start
 game = Game(cards_path = args.cards_path, model = args.model, rounds = args.rounds, cards_per_turn = args.cards_per_turn, verbose = args.verbose)
-chat_result = game.start_game()
+
+chat_result = asyncio.run(game.start_game())
 
 # Print results of the game
 print(chat_result)

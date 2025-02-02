@@ -90,7 +90,7 @@ class Game():
         self.cards_df.loc[self.cards_df['ID'] == id_ , 'discarded'] = True
         return random_card
     
-    def start_game(self) -> str:
+    async def start_game(self) -> str:
         """
         Starts the game, managing rounds and turns.
 
@@ -123,7 +123,7 @@ class Game():
                         print(f'PALABRA : {target_word}')
                         print(f'PALABRAS PROHIBIDAS : {", ".join(forbidden)}')
                         game_round = CpuChat(self.model, forbidden, target_word, self.verbose)
-                    chat_result, tries = game_round.initiate_round()
+                    chat_result, tries = await game_round.initiate_round()
                     if chat_result == 'ACIERTO':
                         score_to_add = self.add_score(turn_type, tries)
                         print(f'¡ACIERTO! SE SUMAN {score_to_add} PUNTOS.\n')

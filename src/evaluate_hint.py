@@ -120,4 +120,4 @@ def evaluate_hint(forbidden_words : list, hint : str) -> str:
                 # Evaluates similarity using Levenshtein distance
                 elif lev_dist(word, hmw) <= 1:
                     return 'PISTA PROHIBIDA'
-    return '' 
+    return 'OK' 

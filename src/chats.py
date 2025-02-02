@@ -1,7 +1,21 @@
-from autogen.agentchat import initiate_chats
-from autogen import register_function
-from .agents import HintEvaluator, HintEvaluatorAssistant, HintGenerator, GuessEvaluator, GuessGenerator, GameHelper, Player
-from .evaluate_hint import evaluate_hint
+import os
+import asyncio
+from autogen_agentchat.agents import AssistantAgent, UserProxyAgent
+from autogen_agentchat.messages import TextMessage
+from autogen_core import CancellationToken
+from autogen_ext.models.openai import OpenAIChatCompletionClient
+from .agents import HintEvaluator, HintGenerator, GuessEvaluator, GuessGenerator, Player
+
+async def assistant_run(agent : AssistantAgent, text_message : TextMessage) -> None:
+    response = await agent.on_messages([text_message], cancellation_token=CancellationToken())
+    print(f'{response.chat_message.source} : {response.chat_message.content}')
+    return response
+
+async def user_proxy_run(agent : UserProxyAgent, text_message : TextMessage):
+    response = await asyncio.create_task(
+        agent.on_messages([text_message], cancellation_token=CancellationToken())
+    )
+    return response
 
 class PlayerHintChat():
     """
@@ -31,80 +45,40 @@ class PlayerHintChat():
         self.verbose = verbose
         self.target_word = target_word
         self.forbidden = forbidden
-        self.hint_evaluator_assistant = HintEvaluatorAssistant(target_word, forbidden, model)
-        self.hint_evaluator = HintEvaluator()
-        self.game_helper = GameHelper()
-        register_function(
-            evaluate_hint,
-            caller=self.hint_evaluator_assistant,  
-            executor=self.hint_evaluator,  
-            name="evaluate_hint",  
-            description="Evaluar la pista"
-        )
-        self.guess_evaluator = GuessEvaluator(target_word, model)
+        self.hint_generator = HintGenerator(target_word, forbidden, OpenAIChatCompletionClient(model=model, 
+                                                                                               api_key=os.environ['OPENAI_API_KEY']))
+        self.hint_evaluator = HintEvaluator(target_word, forbidden,  OpenAIChatCompletionClient(model=model, 
+                                                                                                api_key=os.environ['OPENAI_API_KEY'],
+                                                                                                temperature=0))
+        self.guess_generator = GuessGenerator(OpenAIChatCompletionClient(model=model, 
+                                                                         api_key=os.environ['OPENAI_API_KEY']))
+        self.guess_evaluator = GuessEvaluator(target_word,  OpenAIChatCompletionClient(model=model, 
+                                                                                       api_key=os.environ['OPENAI_API_KEY'],
+                                                                                       temperature=0))
         self.player = Player()
-        self.guess_generator = GuessGenerator(model)
 
-    def initiate_round(self) -> tuple:
+
+    async def initiate_round(self) -> tuple:
         """
         Starts the player's hint-giving round.
 
         Returns (tuple): A string indicating the termination condition and the number of attempts made.
         """
-        previous_hints = []
-        previous_guesses = []
-        terminate_condition = ''
         tries = 0
-        while terminate_condition == '':
-            chat_result = initiate_chats([
-                        {
-                            "sender": self.game_helper,
-                            "recipient": self.player,
-                            "message": "¡COMIENZA A DAR PISTAS!" if previous_hints == [] else f"DA OTRA PISTA\nPALABRA : {self.target_word}\nPALABRAS PROHIBIDAS : {', '.join(self.forbidden)}",
-                            "max_turns": 1,
-                            "summary_method": "last_msg",
-                        },                      
-                        {
-                            "sender": self.hint_evaluator,
-                            "recipient": self.hint_evaluator_assistant,
-                            "message": "Esta es la pista:",
-                            "max_turns": 2,
-                            "summary_method": "last_msg",
-                            "silent" : not self.verbose
-                        },
-                        {
-                            "sender": self.game_helper,
-                            "recipient": self.guess_generator,
-                            "message": "Esta es la pista:" if previous_guesses == [] else "" ,
-                            "max_turns": 1,
-                            "carryover" :  "" if previous_guesses == [] else "Respuestas dadas hasta ahora:\n" + '\n'.join(previous_guesses) + "\nPistas generadas hasta ahora:\n" + '\n'.join(previous_hints),
-                            "summary_method": "last_msg",
-                            "silent" : not self.verbose
-                        },
-                        {
-                            "sender": self.guess_generator,
-                            "recipient": self.guess_evaluator,
-                            "message": "Esta es la respuesta:",
-                            "max_turns": 1,
-                            "finished_chat_indexes_to_exclude_from_carryover" : [0],
-                            "summary_method": "last_msg",
-                        }
-                    ])
-            user_input = chat_result[0].summary
-            agent_guess = chat_result[2].summary
-            guess_evaluator_result = chat_result[-1].summary
-            if user_input == 'PASO':
-                terminate_condition = user_input
-            elif user_input == 'SALIR':
-                terminate_condition = user_input
-            elif guess_evaluator_result == 'ACIERTO':
-                terminate_condition = guess_evaluator_result
-            elif 'PISTA PROHIBIDA' in guess_evaluator_result:
-                terminate_condition = 'PISTA PROHIBIDA'
-            previous_hints.append(user_input)
-            previous_guesses.append(agent_guess)
+        while tries < 10:
+            user_hint = await user_proxy_run(self.player, TextMessage(content="start", source="system"))
+            if user_hint.chat_message.content == 'PASO' or user_hint.chat_message.content == 'SALIR':
+                return user_hint.chat_message.content, tries
+            hint_evaluation = await assistant_run(self.hint_evaluator, user_hint.chat_message)
+            await self.hint_evaluator.on_reset(CancellationToken())
+            if hint_evaluation.chat_message.content == 'PISTA PROHIBIDA':
+                return hint_evaluation.chat_message.content, tries
+            generated_guess = await assistant_run(self.guess_generator, user_hint.chat_message)
+            guess_evaluation = await assistant_run(self.guess_evaluator, generated_guess.chat_message)
+            await self.guess_evaluator.on_reset(CancellationToken())
+            if guess_evaluation.chat_message.content == 'ACIERTO':
+                return guess_evaluation.chat_message.content, tries 
             tries += 1
-        return terminate_condition, tries
     
 class PlayerGuessChat():
     """
