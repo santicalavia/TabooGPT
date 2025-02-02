@@ -15,9 +15,8 @@ class Game():
         model (str): Model used for llm calls.
         rounds (int): Number of rounds in the game.
         cards_per_turn (int): Number of cards used per turn.
-        verbose (bool): Verbose mode for debugging.
     """
-    def __init__(self, cards_path : str, model : str, rounds : int, cards_per_turn : int, verbose : bool):
+    def __init__(self, cards_path : str, model : str, rounds : int, cards_per_turn : int):
         """
         Initializes the game instance with the given parameters.
 
@@ -26,7 +25,6 @@ class Game():
             model (str): Model to be used for llm calls.
             rounds (int): Number of rounds in the game.
             cards_per_turn (int): Number of cards per turn.
-            verbose (bool): Verbose mode for debugging.
         """
         self.player_score = 0
         self.cpu_score = 0
@@ -36,7 +34,6 @@ class Game():
         self.model = model
         self.rounds = rounds
         self.cards_per_turn = cards_per_turn
-        self.verbose = verbose
     
     def add_score(self, turn_type : str, tries : int) -> int:
         """
@@ -104,7 +101,6 @@ class Game():
             ### Turn
             for t in range(turns):
                 turn_type = self.turns_order.next()
-                turn_type = 'player_hint_turn'
                 ### Cards
                 for r in range(self.cards_per_turn):
                     card = self.get_random_card()
@@ -114,22 +110,27 @@ class Game():
                         print('EL JUGADOR DA PISTAS')
                         print(f'PALABRA : {target_word}')
                         print(f'PALABRAS PROHIBIDAS : {", ".join(forbidden)}')
-                        game_round = PlayerHintChat(self.model, forbidden, target_word, self.verbose)
+                        game_round = PlayerHintChat(self.model, forbidden, target_word)
                     elif turn_type == 'player_guess_turn':
                         print('EL JUGADOR ADIVINA')
-                        game_round = PlayerGuessChat(self.model, forbidden, target_word, self.verbose)
+                        game_round = PlayerGuessChat(self.model, forbidden, target_word)
                     elif turn_type == 'cpu':
                         print('JUEGA LA CPU')
                         print(f'PALABRA : {target_word}')
                         print(f'PALABRAS PROHIBIDAS : {", ".join(forbidden)}')
-                        game_round = CpuChat(self.model, forbidden, target_word, self.verbose)
+                        game_round = CpuChat(self.model, forbidden, target_word)
                     chat_result, tries = await game_round.initiate_round()
                     if chat_result == 'ACIERTO':
                         score_to_add = self.add_score(turn_type, tries)
                         print(f'¡ACIERTO! SE SUMAN {score_to_add} PUNTOS.\n')
+                    elif chat_result == 'PASO':
+                        print(f'La palabra era {target_word}')
                     elif chat_result == 'SALIR':
                         return f'HAS SALIDO DEL JUEGO\nRESULTADOS : \n JUGADOR : {self.player_score} \n CPU : {self.cpu_score}'
                     elif chat_result == 'PISTA PROHIBIDA':
                         print('PISTA PROHIBIDA. NO SE SUMARÁN PUNTOS PARA ESTA CARTA.\n')
+                    elif chat_result == 'MÁXIMO DE INTENTOS ALCANZADO':
+                        print(f'La palabra era {target_word}')
+                        print('MÁXIMO DE INTENTOS ALCANZADO. NO SE SUMARÁN PUNTOS PARA ESTA CARTA.\n')
                         
         return f'RESULTADOS : \n JUGADOR : {self.player_score} \n CPU : {self.cpu_score}'

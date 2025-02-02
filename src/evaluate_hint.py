@@ -104,7 +104,7 @@ def evaluate_hint(forbidden_words : list, hint : str) -> str:
     
     Returns:
         str: Returns 'PISTA PROHIBIDA' if the hint contains or closely resembles any forbidden word,
-             otherwise returns an empty string.
+             otherwise returns 'OK'.
     """
     hint_main_words = extract_main_words(hint)
     for fw in forbidden_words:
