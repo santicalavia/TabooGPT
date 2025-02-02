@@ -8,7 +8,7 @@ load_dotenv()
 
 # Parse arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("-p", "--cards_path", type=str, help="Patch for cards.csv file", default="data/cards.csv")
+parser.add_argument("-p", "--cards_path", type=str, help="Path for cards.csv file", default="data/cards.csv")
 parser.add_argument("-m", "--model", type=str, help="OpenAI model to use", default="gpt-4o-mini")
 parser.add_argument("-r", "--rounds", type=int, help="Number of rounds (each round consists of 4 turns: 2 by the player and 2 by the CPU)", default=2)
 parser.add_argument("-c", "--cards_per_turn", type=int, help="Number of cards per turn", default=5)
