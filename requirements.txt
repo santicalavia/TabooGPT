@@ -1,5 +1,5 @@
 python-dotenv==1.0.1
 pandas==2.2.3
 autogen-agentchat~=0.4
-autogen-ext~=0.4
+autogen-ext[openai]~=0.4
 spacy==3.8.3
