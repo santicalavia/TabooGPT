@@ -104,7 +104,6 @@ class Game():
             ### Turn
             for t in range(turns):
                 turn_type = self.turns_order.next()
-                turn_type = 'player_hint_turn'
                 ### Cards
                 for r in range(self.cards_per_turn):
                     card = self.get_random_card()
