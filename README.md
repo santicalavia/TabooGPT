@@ -64,12 +64,12 @@ Finally, create a .env file with the following keys :
 
 ```bash
   'OPENAI_API_KEY' = 'put-your-api-key-here'
-  'AUTOGEN_USE_DOCKER' = "False"
+  'AUTOGEN_USE_DOCKER' = 'False'
 ```
 And put the .env file in TabooGPT folder.
 
 ## Usage
-To play the game, execute main.py from in your new python environment:
+To play the game, execute main.py from your new python environment:
 ```bash
 python main.py
 ```
