@@ -36,9 +36,20 @@ This agent represents the human player in the game. It acts as an intermediary b
 
 
 ## Installation
+First, clone the repository and go to the repository folder:
+
+```bash
+git clone https://github.com/santicalavia/TabooGPT.git
+cd TabooGPT
+```
 
 This project was tested using Python 3.10. Create an environment with this Python version and install requirements.txt
-
+If you are using Anaconda/Miniconda, you can run this command:
+```bash
+  conda create -n taboogpt python=3.10
+  activate taboogpt
+```
+Install the requirements:
 ```bash
   pip install -r requirements.txt
 ```
@@ -49,12 +60,13 @@ Then, download Spanish language model for Spacy:
   python -m spacy download es_core_news_sm 
 ```
 
-Finally, create a .env file with your OpenAI API key : 
+Finally, create a .env file with the following keys : 
 
 ```bash
-  'OPENAI_API_KEY' = 'your-api-key'
+  'OPENAI_API_KEY' = 'put-your-api-key-here'
   'AUTOGEN_USE_DOCKER' = "False"
 ```
+And put the .env file in TabooGPT folder.
 
 ## Usage
 To play the game, execute main.py from in your new python environment:
@@ -63,7 +75,7 @@ python main.py
 ```
 You can use the following arguments to customize the configuration. However, the default settings are sufficient for a standard game.
 ```bash
-  -h, --help            show this help message and exit
+-h, --help            show this help message and exit
   -p CARDS_PATH, --cards_path CARDS_PATH
                         Path for cards.csv file
   -m MODEL, --model MODEL
@@ -74,6 +86,9 @@ You can use the following arguments to customize the configuration. However, the
                         Number of cards per turn 
 ```
 
-The different turns will proceed consecutively. In the user's interactions, if the word "PASO" is typed, the game will move to the next card. If "SALIR" is typed, the game will end.
+The different turns will proceed consecutively. 
+In the user's interactions, you can write some special words to perform some actions:
+- To skip to the next card, write "PASO". 
+- To exit the game, type "SALIR".
 
 Enjoy!
