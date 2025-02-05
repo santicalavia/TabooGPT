@@ -5,6 +5,7 @@ The goal of the game is to guess the target word based on hints provided by your
 
 In this version of the game, you'll team up with an LLM partner to compete against a rival team of LLMs.
 
+### Turns
 The game features three types of turns:
 
 **Player guesses:** You must guess the word based on the hints provided by your LLM partner.
@@ -14,6 +15,7 @@ The game features three types of turns:
 **CPU turn:** A rival team of LLMs will take their turn.
 You'll score more points if your team guesses the word with fewer hints.
 
+### Agents
 Each of the described turns works thanks to a series of agents, each fulfilling a specific function:
 
 **HintGenerator:**
