@@ -77,7 +77,7 @@ python main.py
 ```
 You can use the following arguments to customize the configuration. However, the default settings are sufficient for a standard game.
 ```bash
--h, --help            show this help message and exit
+  -h, --help            show this help message and exit
   -p CARDS_PATH, --cards_path CARDS_PATH
                         Path for cards.csv file
   -m MODEL, --model MODEL
