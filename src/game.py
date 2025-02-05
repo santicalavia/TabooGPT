@@ -104,7 +104,7 @@ class Game():
                 ### Cards
                 for r in range(self.cards_per_turn):
                     card = self.get_random_card()
-                    forbidden = [card['forbidden_1'], card['forbidden_2'], card['forbidden_3'], card['forbidden_4']]
+                    forbidden = [card['forbidden_1'], card['forbidden_2'], card['forbidden_3'], card['forbidden_4'], card['forbidden_5']]
                     target_word = card['target']
                     if turn_type == 'player_hint_turn':
                         print('EL JUGADOR DA PISTAS')
